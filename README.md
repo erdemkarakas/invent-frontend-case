@@ -1,3 +1,5 @@
+![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/erdemkarakas/invent-frontend-case/main/invent-movies-flow.png))
+
 # Invent Analytics Front-end Developer Case Question
 
 To Run the project, please follow the steps below:
