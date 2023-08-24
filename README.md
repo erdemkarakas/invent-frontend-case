@@ -6,7 +6,7 @@ To Run the project, please follow the steps below:
 1. Clone the project
 2. Run `npm install` to install the dependencies
 3. Run `npm run dev` to start the project
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
  # Project Flow
  <img src="https://raw.githubusercontent.com/erdemkarakas/invent-frontend-case/main/invent-movies-flow.png" alt="reactnative" />
