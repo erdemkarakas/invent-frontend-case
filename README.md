@@ -5,7 +5,7 @@ To Run the project, please follow the steps below:
 
 1. Clone the project
 2. Generate API key (www.omdbapi.com/apikey.aspx)
-3. Place API key `.env.example`
+3. Place API key `.env.example` (number)
 4. Change name `.env.example` to `.env`
 5. Run `npm install` to install the dependencies
 6. Run `npm run dev` to start the project 
