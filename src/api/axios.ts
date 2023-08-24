@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL: "http://www.omdbapi.com",
   params: {
-    apikey: "7344e6a4",
+    apikey: import.meta.env.VITE_API_KEY,
   },
   headers: {
     "Content-Type": "application/json",

@@ -38,7 +38,7 @@ const Home = () => {
     }
   };
 
-  const movieRowClicked = (row: MovieRow) => {
+  const navigateToMovie = (row: MovieRow) => {
     navigate(`/movies/${row.imdbID}`);
   };
 
@@ -58,7 +58,7 @@ const Home = () => {
             <DataTable
               title="Movies"
               defaultSortFieldId={1}
-              onRowClicked={movieRowClicked}
+              onRowClicked={navigateToMovie}
               onChangePage={(page) => setCurrentPage(page)}
               columns={columns}
               data={movieData}
