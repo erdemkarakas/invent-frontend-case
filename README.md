@@ -1,3 +1,5 @@
+ <img src="https://raw.githubusercontent.com/erdemkarakas/invent-frontend-case/main/invent-movies-flow.png" alt="reactnative" />
+
 # Invent Analytics Front-end Developer Case Question
 
 To Run the project, please follow the steps below:
