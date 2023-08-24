@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ApiParams, Movie } from "./types";
 import { useParams } from "react-router-dom";
-import api from "../../api/axios";
+import api from "../../api/client";
 import "./MoviesDetails.scss";
 import Navbar from "../../views/Header";
 import { Rating } from "react-simple-star-rating";

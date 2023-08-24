@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import "./index.scss";
-import { Logo } from "../../assets/logo";
+import "./Header.scss";
+import { Logo } from "../../icons/logo";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

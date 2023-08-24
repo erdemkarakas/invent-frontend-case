@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import api from "../../api/axios";
+import api from "../../api/client";
 import Navbar from "../../views/Header";
 
 import "./home.scss";

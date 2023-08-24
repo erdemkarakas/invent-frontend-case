@@ -5,6 +5,7 @@ interface MovieState {
   year: string | undefined;
   type: "movie" | "series" | "episode";
 }
+type MovieTypes = "movie" | "series" | "episode";
 
 const initialState: MovieState = {
   title: "Pokemon",
@@ -22,7 +23,7 @@ const movieSlice = createSlice({
     setYear(state, action: PayloadAction<string>) {
       state.year = action.payload;
     },
-    setType(state, action: PayloadAction<"movie" | "series" | "episode">) {
+    setType(state, action: PayloadAction<MovieTypes>) {
       state.type = action.payload;
     },
   },
