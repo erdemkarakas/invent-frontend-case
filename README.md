@@ -65,6 +65,6 @@ To Run the project, please follow the steps below:
 ```
 
 
-# Proje UI Gif
+# Project UI Gif
 
 <img src="invent-movies.gif" />
