@@ -1,0 +1,25 @@
+.select-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.select-box__label {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #ffffff;
+}
+.select-box {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+  margin-left: 5px;
+
+  &:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+}

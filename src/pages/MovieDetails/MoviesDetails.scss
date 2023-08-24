@@ -1,0 +1,35 @@
+body {
+  background-color: #00205c;
+  font-family: "Roboto", sans-serif;
+  color: #fdfdfd;
+}
+.movie-container {
+  display: flex;
+  justify-content: center;
+
+  margin: 2rem;
+
+  .movie-poster {
+    img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .movie-details {
+    margin-left: 2rem;
+    font-size: 16px;
+
+    h1 {
+      font-size: 24px;
+    }
+    .imdb_text {
+      color: #f5c518;
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+  }
+}

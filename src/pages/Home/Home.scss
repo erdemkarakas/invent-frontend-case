@@ -1,0 +1,23 @@
+.app {
+  padding: 20px;
+  .rdt_Table {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .rdt_TableHeader {
+    background-color: #f2f2f2;
+  }
+
+  .rdt_Pagination {
+    margin-top: 10px;
+  }
+}
+
+.content__wrapper {
+  background-color: #00205c;
+}
+
+.content__table {
+  padding-inline: 30px;
+}
