@@ -1,11 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
+type MovieTypes = "movie" | "series" | "episode";
+
 interface MovieState {
   title: string;
-  year: string | undefined;
-  type: "movie" | "series" | "episode";
+  year?: string;
+  type: MovieTypes;
 }
-type MovieTypes = "movie" | "series" | "episode";
 
 const initialState: MovieState = {
   title: "Pokemon",
@@ -20,7 +21,7 @@ const movieSlice = createSlice({
     setTitle(state, action: PayloadAction<string>) {
       state.title = action.payload;
     },
-    setYear(state, action: PayloadAction<string>) {
+    setYear(state, action: PayloadAction<string | undefined>) {
       state.year = action.payload;
     },
     setType(state, action: PayloadAction<MovieTypes>) {
